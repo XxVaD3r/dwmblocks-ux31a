@@ -4,7 +4,7 @@
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
-!_TAG_PROC_CWD	/home/dmitrys/.suckless/dwmblocks/	//
+!_TAG_PROC_CWD	/home/dmitrys/Dev/Development/dwmblocks-ux31a/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
@@ -19,24 +19,23 @@ CMDLENGTH	dwmblocks.c	/^#define CMDLENGTH	/;"	d	file:
 LDFLAGS	Makefile	/^LDFLAGS = -lX11$/;"	m
 LENGTH	dwmblocks.c	/^#define LENGTH(/;"	d	file:
 MIN	dwmblocks.c	/^#define MIN(/;"	d	file:
+Notes	README.md	/^# Notes$/;"	c
 PREFIX	Makefile	/^PREFIX ?= \/usr\/local$/;"	m
+Requirements	README.md	/^# Requirements$/;"	c
 SIGMINUS	dwmblocks.c	/^#define SIGMINUS	/;"	d	file:
 SIGPLUS	dwmblocks.c	/^#define SIGPLUS	/;"	d	file:
 STATUSLENGTH	dwmblocks.c	/^#define STATUSLENGTH /;"	d	file:
 __anon7273fc5c0108	dwmblocks.c	/^typedef struct {$/;"	s	file:
 a/dwmblocks.c	dwmblocks-statuscmd-b6b0be4.diff	/^--- a\/dwmblocks.c	2020-12-22 14:25:05.289247774 +0200$/;"	m
 blocks	blocks.def.h	/^static const Block blocks[] = {$/;"	v	typeref:typename:const Block[]
-blocks	blocks.h	/^static const Block blocks[] = {$/;"	v	typeref:typename:const Block[]
 blocks.h	Makefile	/^blocks.h:$/;"	t
 clean	Makefile	/^clean:$/;"	t
 command	dwmblocks.c	/^	char* command;$/;"	m	struct:__anon7273fc5c0108	typeref:typename:char *	file:
 delim	blocks.def.h	/^static char delim[] = " | ";$/;"	v	typeref:typename:char[]
-delim	blocks.h	/^static char delim[] = " ][ ";$/;"	v	typeref:typename:char[]
 delimLen	blocks.def.h	/^static unsigned int delimLen = 5;$/;"	v	typeref:typename:unsigned int
-delimLen	blocks.h	/^static unsigned int delimLen = 5;$/;"	v	typeref:typename:unsigned int
 dpy	dwmblocks.c	/^static Display *dpy;$/;"	v	typeref:typename:Display *	file:
 dummysighandler	dwmblocks.c	/^void dummysighandler(int signum)$/;"	f	typeref:typename:void
-dwmblocks	README.md	/^# dwmblocks$/;"	c
+dwmblocks-ux31a	README.md	/^# dwmblocks-ux31a$/;"	c
 getcmd	dwmblocks.c	/^void getcmd(const Block *block, char *output)$/;"	f	typeref:typename:void
 getcmds	dwmblocks.c	/^void getcmds(int time)$/;"	f	typeref:typename:void
 getsigcmds	dwmblocks.c	/^void getsigcmds(unsigned int signal)$/;"	f	typeref:typename:void
