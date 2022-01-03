@@ -1,5 +1,5 @@
 #!/bin/sh
-SSID="$(iw dev wlan0 info | awk '/ssid/ {print $2}')"
+SSID="$(iw dev wlan0 info | sed -n 's/ssid//p' | sed -e 's/^[ \t]*//')"
 STAT="$(cat /sys/class/net/wlan0/operstate)"
 #STATi set during stat check
 if [ -z "$SSID" ] #If unset
