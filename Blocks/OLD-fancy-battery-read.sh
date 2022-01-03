@@ -1,4 +1,7 @@
 #!/bin/sh
+
+# This file is the same as "Better-bat.sh" I do not know why it is in here, I forgot to delete it I think 
+
 BAT0=$(cat /sys/class/power_supply/BAT0/capacity)
 # if battery is 100-75
 if [ $BAT0 -le 100 ] && [ $BAT0 -ge 75 ] 
