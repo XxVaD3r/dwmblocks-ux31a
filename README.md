@@ -1,5 +1,8 @@
 # dwmblocks-ux31a
 Modular status bar for dwm written in c. (Blocks made by VaD_3r).
+
+Requires DWM Status2d patch unless you remove all the color codes ("^c#XXXXXX")
+
 # Requirements
 I use JetBrains Mono Nerd Font from the AUR.
 # usage

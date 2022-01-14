@@ -4,11 +4,12 @@ STAT="$(cat /sys/class/net/wlan0/operstate)"
 #STATi set during stat check
 if [ -z "$SSID" ] #If unset
 then
-    SSID="Disconnected"
-    STATi=""
+    SSID="^c#ff0000^Disconnected^d^"
+    STATi="^c#ff0000^睊 ^d^"
 fi
 if [ $STAT == "up" ] #If set
 then
-    STATi="ﯱ"
+    STATi="^c#59ff00^直 ^d^"
+    SSID="$(echo "^c#59ff00^$SSID^d^")"
 fi
-echo -e "$STATi $SSID"
+echo -e "$STATi$SSID"
