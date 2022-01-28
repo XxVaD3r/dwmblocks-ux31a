@@ -4,13 +4,15 @@ static const Block blocks[] = {
 
     {"  ", "~/.suckless/dwmblocks/Blocks/db-pamixer-vol.sh",                       0,  10}, // Volume
 
-    {" ", "~/.suckless/dwmblocks/Blocks/xbacklight.sh",                            0,  11}, // Brightness
+    {"", "~/.suckless/dwmblocks/Blocks/xbacklight.sh",                              0,  11}, // Brightness
 
 	{"", "~/.suckless/dwmblocks/Blocks/mem-usage.sh",	                            3,	 0}, // Memory Usage
 
     {"", "~/.suckless/dwmblocks/Blocks/CPU-Temp.sh",                                3,   0}, // CPU Usage
 
     {"", "~/.suckless/dwmblocks/Blocks/new-bat0.sh",                                8,   0}, // Fancy Battery Status
+
+    {"", "~/.suckless/dwmblocks/Blocks/vpn-ind.sh",                                 0,  12}, // IP Address
 
     {"", "~/.suckless/dwmblocks/Blocks/connection-name.sh",                         8,   0}, // Connection
 

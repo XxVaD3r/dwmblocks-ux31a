@@ -1,2 +1,3 @@
 #!/bin/sh
-echo $(xbacklight | sed 's/[.].*$//' | sed 's/$/%/')
+blue="^c#2596BE^"
+echo "$blue $(xbacklight | sed 's/[.].*$//' | sed 's/$/%/')^d^"

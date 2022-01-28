@@ -5,5 +5,5 @@ then
     VOL="^c#717482^Muted^d^"
 fi
 
-echo $VOL
+echo "$VOL"
 

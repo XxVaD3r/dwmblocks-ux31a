@@ -1,2 +1,3 @@
 #!/bin/sh
-echo $(date +'%m.%d.%Y - %r')
+blue="^c#2596BE^"
+echo "$blue$(date +'%m.%d.%Y - %r')^d^"

@@ -2,6 +2,7 @@
 #TEMP=$(cat /sys/class/hwmon/hwmon3/temp1_input | cut -c 1,2 -n | sed 's/$/°C/')
 TEMP=$(cat /sys/class/hwmon/hwmon3/temp1_input | cut -c 1,2 -n)
 close="^d^"
+color="^c#2596BE^"
 if [[ $TEMP -ge 52 ]] && [[ $TEMP -le 55 ]]
 then
     color="^c#ffd000^"
